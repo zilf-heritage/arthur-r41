@@ -1,0 +1,76 @@
+Release: 41
+     0  Inserting narthur.zap.
+    64  Inserting narthurfreq.xzap.
+   672  Inserting narthurdat.zap.
+ 35129  Inserting narthurpur.zap.
+ 38373  Inserting pstack.zap.
+ 38410  Inserting pmem.zap.
+ 38553  Inserting parser.zap.
+ 47608  Inserting find.zap.
+ 49782  Inserting reds.zap.
+ 56516  Inserting breds.zap.
+ 58812  Inserting top.zap.
+ 60647  Inserting prare.zap.
+ 65328  Inserting macros.zap.
+ 65470  Inserting misc.zap.
+ 68908  Inserting util.zap.
+ 73867  Inserting verbs.zap.
+ 88448  Inserting transfrm.zap.
+ 91697  Inserting be.zap.
+ 92914  Inserting food.zap.
+ 95236  Inserting cell.zap.
+101751  Inserting boar.zap.
+104981  Inserting window.zap.
+109817  Inserting sword.zap.
+115759  Inserting password.zap.
+123694  Inserting endgame.zap.
+126823  Inserting eel.zap.
+132635  Inserting badger.zap.
+134128  Inserting basil.zap.
+135435  Inserting dragon.zap.
+138576  Inserting raven.zap.
+142896  Inserting castle.zap.
+148238  Inserting rednite.zap.
+151115  Inserting lady.zap.
+153158  Inserting forest.zap.
+153687  Inserting joust.zap.
+160228  Inserting demon.zap.
+165915  Inserting ice-hot.zap.
+168301  Inserting chestnut.zap.
+169889  Inserting tower.zap.
+175201  Inserting bog.zap.
+181157  Inserting leprchan.zap.
+184816  Inserting merlin.zap.
+191138  Inserting tavern.zap.
+193278  Inserting kitchen.zap.
+198199  Inserting iknight.zap.
+201682  Inserting town.zap.
+203716  Inserting idiot.zap.
+205456  Inserting church.zap.
+210762  Inserting places.zap.
+211198  Inserting global.zap.
+213643  Inserting clues.zap.
+216430  Inserting hints.zap.
+217080  Inserting narthurstr.zap.
+Unreferenced table: RT?38811
+Unreferenced table: PT?449
+Unreferenced table: PT?549
+Unreferenced string: NOT-ENOUGH-ROOM
+Unreferenced table: PT?429
+Unreferenced table: RT?33911
+Unreferenced function: TELL-CANT-FIND
+Unreferenced string: YOU-DIDNT-SAY-W
+Unreferenced table: PT?343
+Unreferenced table: STRBEG
+Unreferenced function: PIXELS-C
+Unreferenced function: PIXELS-L
+Unreferenced global: P-DIRECTION
+
+Lexical buffer space allocated:  1184296
+Max lexical space allocated at any one time: 48012
+Object buffer space allocated:  240000
+Source bytes read:  1128332
+Object bytes written:  235520
+Preload: 35129; 281 objects; 158 globals; 1022 words.
+Used 4:19
+Elapsed time 5:13

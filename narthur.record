@@ -1,0 +1,1404 @@
+ZILCH of 4/25/89 11:14
+
+Combined ZIL Compiler Ver 2.0 (MIM)
+-----------------------------------
+
+Incremental compilation disabled, because top-level ZIL file changed.
+
+Input file: /USR/DEVELOPMENT/ARTHUR/NARTHUR.ZIL
+[Object numbers assigned rooms first]
+
+[YZIP instructions]
+
+Loading /USR/DEVELOPMENT/ARTHUR/DEFS.ZIL and compiling it.
+XFLOAD /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PARSER.REST.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/CONSTANTS.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PSTACK.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: PEEK-PSTACK
+End segment 0
+Abstracting PSTACK to /USR/DEVELOPMENT/ARTHUR/PSTACK.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PMEM.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: PMEM?
+Compiling routine: PMEM-RESET
+Compiling routine: DO-PMEM-ALLOC
+End segment 0
+Abstracting PMEM to /USR/DEVELOPMENT/ARTHUR/PMEM.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PDEFS.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/ARTHUR/DEFS2.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PARSER.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: INIT-STATUS-LINE
+Compiling routine: UPDATE-STATUS-LINE
+Compiling routine: WITHIN?
+Compiling routine: MOUSE-INPUT?
+Compiling routine: MAC-II-CLICK
+Compiling routine: RT-MAP-CLICK
+Compiling routine: DIR-TO-STRING
+Compiling routine: ADD-TO-INPUT
+Compiling routine: READ-INPUT
+Compiling routine: SPECIAL-CONTRACTION?
+Compiling routine: EXPAND-BE-CONTRACTIONS
+Compiling routine: TELL-THE
+Compiling routine: TELL-CTHE
+Compiling routine: NAKED-DIR?
+Compiling routine: PARSER
+Compiling routine: GAME-VERB?
+Compiling routine: RED-SD
+Compiling routine: P-P
+Compiling routine: PARSE-IT
+Compiling routine: PARSE-SENTENCE
+Compiling routine: GET-TERMINAL-ACTION
+Compiling routine: GET-NONTERMINAL-ACTION
+Compiling routine: BE-PATIENT
+Compiling routine: MAIN-LOOP
+Compiling routine: COLLECTIVE-VERB?
+Compiling routine: DIR-VERB?
+Compiling routine: MAIN-LOOP-1
+Compiling routine: PERF-MANY
+Compiling routine: TEST-ADJACENT
+Compiling routine: QCONTEXT-CHECK
+Compiling routine: LIT?
+Compiling routine: IGNORE-FIRST-WORD
+Compiling routine: FIX-QUOTATIONS
+Compiling routine: MAIN-LOOP-IT
+Compiling routine: P-NO-MEM-ROUTINE
+Compiling routine: BEG-PARDON
+Compiling routine: UNKNOWN-WORD
+Compiling routine: WORD-PRINT
+Compiling routine: PRINT-VOCAB-WORD
+Compiling routine: DO-OOPS
+Compiling routine: DO-AGAIN
+Compiling routine: NP-SAVE
+Compiling routine: PARSER-ERROR
+Compiling routine: BUZZER-WORD?
+Compiling routine: RT-PICK-ONE
+Compiling routine: NUMBER?
+Compiling routine: CHANGE-LEXV
+Compiling routine: TELL-GWIM-MSG
+Compiling routine: DO-IT-AGAIN
+End segment 0
+Abstracting PARSER to /USR/DEVELOPMENT/ARTHUR/PARSER.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/FIND.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: FIND-DESCENDANTS
+Compiling routine: EXCLUDED?
+Compiling routine: INVALID-OBJECT?
+Compiling routine: MATCH-OBJECT
+Compiling routine: TEST-OBJECT
+Compiling routine: ADD-OBJECT
+Compiling routine: NOT-IN-FIND-RES?
+Compiling routine: EVERYWHERE-VERB?
+Compiling routine: MULTIPLE-EXCEPTION?
+Compiling routine: CHECK-ADJS-THERE?
+Compiling routine: CHECK-ADJS
+Compiling routine: SEARCH-IN-LG?
+Compiling routine: EXCLUDE-HERE-OBJECT?
+Compiling routine: FIND-OBJECTS
+Compiling routine: TEST-THINGS
+End segment 0
+Abstracting FIND to /USR/DEVELOPMENT/ARTHUR/FIND.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/REDS.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: DIR-VERB-WORD?
+Compiling routine: NOT-HERE-VERB?
+Compiling routine: RED-FCN
+Compiling routine: RED-PART
+Compiling routine: GET-SYNTAX
+Compiling routine: RED-SV
+Compiling routine: ROOT-VERB
+Compiling routine: RED-SVN
+Compiling routine: SVN
+Compiling routine: RED-SVPNPN
+Compiling routine: RED-SVD
+Compiling routine: RED-SP
+Compiling routine: IREDUCE-EXCEPTION
+Compiling routine: REDUCE-EXCEPT-IT
+Compiling routine: REDUCE-EXCEPTION
+Compiling routine: REDUCE-LOCATION
+Compiling routine: DETERMINE-OBJ
+Compiling routine: CHECK-DIR-ADJS
+Compiling routine: NUMERIC-ADJ?
+Compiling routine: DETERMINE-NP
+Compiling routine: DET-NP-NOT-HERE?
+Compiling routine: DET-NP-OWNEE?
+Compiling routine: FIND-OWNERS
+Compiling routine: READY-TO-DISAMBIGUATE?
+Compiling routine: DETERMINE-NP-XFER
+Compiling routine: DO-ORPHAN-TEST
+Compiling routine: RED-O-ADJ
+Compiling routine: RED-O-PP
+Compiling routine: INSERT-NP
+Compiling routine: TEST-SR
+Compiling routine: TEST-O-SR
+Compiling routine: RED-O-NP
+Compiling routine: RED-PERS
+Compiling routine: HACK-TELL
+Compiling routine: HACK-TELL-1
+Compiling routine: RED-VP
+Compiling routine: RED-NP
+Compiling routine: RED-OF
+Compiling routine: RED-QT
+Compiling routine: GET-QUANTITY-WORD
+Compiling routine: GET-QUANTITY
+Compiling routine: RED-QN
+Compiling routine: RED-NPP
+Compiling routine: RED-PP
+Compiling routine: RED-POSS
+Compiling routine: RED-ADJS
+Compiling routine: RED-ADJ
+Compiling routine: RED-QUOTE
+End segment 0
+Abstracting REDS to /USR/DEVELOPMENT/ARTHUR/REDS.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/BREDS.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: RED-BE-FORM
+Compiling routine: EXCH-4-5-Q
+Compiling routine: RED-SBNN
+Compiling routine: RED-SNBN
+Compiling routine: DETERMINE-SUBJ
+Compiling routine: RED-SBNA
+Compiling routine: RED-SNBA
+Compiling routine: RED-SBNP
+Compiling routine: RED-SNBP
+Compiling routine: RED-SNBAP
+Compiling routine: P-PP-OBJ
+Compiling routine: P-PP-PREP
+Compiling routine: RED-SQBN
+Compiling routine: RED-BE
+Compiling routine: RED-NOT
+Compiling routine: RED-CANDO
+Compiling routine: INSERT-WHAT
+End segment 0
+Abstracting BREDS to /USR/DEVELOPMENT/ARTHUR/BREDS.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/GRAM.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/TOP.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: MORE-SPECIFIC
+Compiling routine: V-PDEBUG
+Compiling routine: VERB-ALL-TEST
+Compiling routine: FIX-HIM-HER-IT
+Compiling routine: TELL-PRONOUN
+Compiling routine: NO-M-WINNER-VERB?
+Compiling routine: FIND-A-WINNER
+Compiling routine: TELL-SAID-TO
+Compiling routine: QCONTEXT-GOOD?
+Compiling routine: META-LOC
+Compiling routine: CANT-UNDO
+Compiling routine: SEE-VERB?
+Compiling routine: PERFORM
+Compiling routine: TELL-TOO-DARK
+Compiling routine: ITAKE-CHECK
+Compiling routine: TELL-D-LOC
+Compiling routine: D-APPLY
+Compiling routine: CAPITAL-NOUN?
+Compiling routine: NOT-HERE
+Compiling routine: SPEAKING-VERB?
+Compiling routine: GET-OWNER
+Compiling routine: GET-NP
+Compiling routine: NOUN-USED?
+Compiling routine: ADJ-USED?
+End segment 0
+Abstracting TOP to /USR/DEVELOPMENT/ARTHUR/TOP.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PRARE.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: TOO-MANY-NEW
+Compiling routine: NAKED-OOPS
+Compiling routine: CANT-OOPS
+Compiling routine: CANT-AGAIN
+Compiling routine: CANT-USE-MULTIPLE
+Compiling routine: MAKE-ROOM-FOR-TOKENS
+Compiling routine: REPLACE-ONE-TOKEN
+Compiling routine: V-$REFRESH
+Compiling routine: PRINT-INTQUOTE
+Compiling routine: PRINT-LEXV
+Compiling routine: COPY-INPUT
+End segment 0
+Start segment 0
+Compiling routine: BUFFER-PRINT
+Compiling routine: CAPITALIZE
+Compiling routine: PRINT-PARSER-FAILURE
+Compiling routine: NAKED-ADJECTIVE?
+Compiling routine: CHANGE-AND-TO-THEN?
+Compiling routine: DONT-UNDERSTAND
+Compiling routine: MISSING
+Compiling routine: CANT-FIND-OBJECT
+Compiling routine: NP-CANT-SEE
+Compiling routine: WINNER-SAYS-WHICH?
+Compiling routine: WHICH-LIST?
+Compiling routine: WHICH-PRINT
+Compiling routine: NP-PRINT
+Compiling routine: ADJS-PRINT
+Compiling routine: TOO-MANY-NOUNS
+Compiling routine: INBUF-ADD
+Compiling routine: INBUF-PRINT
+Compiling routine: YES?
+Compiling routine: SETUP-ORPHAN
+Compiling routine: SETUP-ORPHAN-NP
+Compiling routine: INSERT-ADJS
+Compiling routine: INSERT-ADJS-WD
+End segment 0
+Abstracting PRARE to /USR/DEVELOPMENT/ARTHUR/PRARE.
+Loading /USR/DEVELOPMENT/ARTHUR/PICDEF.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/ARTHUR/MACROS.ZIL and compiling it.
+
+Compiling routine: TOUCH-VERB?
+Compiling routine: UNHIDE-VERB?
+Abstracting MACROS to /USR/DEVELOPMENT/ARTHUR/MACROS.
+Loading /USR/DEVELOPMENT/ARTHUR/MISC.ZIL and compiling it.
+Compiling routine: RT-CH-PLAYER
+Compiling routine: VISIBLE?
+Compiling routine: CLOSED?
+Compiling routine: ACCESSIBLE?
+Compiling routine: RT-PRINT-DESC
+Compiling routine: PRINT-ARTICLE
+Compiling routine: RT-PRINT-OBJ
+Compiling routine: THIS-IS-IT
+Compiling routine: RT-PRINT-VERB
+Compiling routine: RT-IN-ON-MSG
+Compiling routine: RT-OUT-OFF-MSG
+Compiling routine: RT-OPEN-MSG
+Compiling routine: RT-WALK-MSG
+Compiling routine: RT-STANDING-MSG
+Compiling routine: RT-I-BELL
+Compiling routine: CLOCKER
+Compiling routine: RT-QUEUE
+Compiling routine: RT-DEQUEUE
+Compiling routine: RT-IS-QUEUED?
+Compiling routine: C-PIXELS
+Compiling routine: L-PIXELS
+Compiling routine: PIXELS-C
+Compiling routine: PIXELS-L
+Compiling routine: CCURSET
+Compiling routine: CSPLIT
+Compiling routine: RT-SCRIPT-INBUF
+Compiling routine: GO
+Abstracting MISC to /USR/DEVELOPMENT/ARTHUR/MISC.
+Loading /USR/DEVELOPMENT/ARTHUR/SYNTAX.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/ARTHUR/UTIL.ZIL and compiling it.
+Compiling routine: RT-AUTHOR-MSG
+Compiling routine: RT-AUTHOR-OFF
+Compiling routine: RT-AUTHOR-CLEAR
+Compiling routine: RT-COUNT-LINES
+Compiling routine: RT-EARNED-MSG
+Compiling routine: RT-POINT-MSG
+Compiling routine: RT-SCORE-MSG
+Compiling routine: RT-SCORE-OBJ
+Compiling routine: V-SCORE
+Compiling routine: V-NOTIFY
+Compiling routine: V-NOTIFY-ON
+Compiling routine: V-NOTIFY-OFF
+Compiling routine: V-$STEAL
+Compiling routine: V-$GOTO
+Compiling routine: V-$PASSWORD
+Compiling routine: V-VERSION
+Compiling routine: V-COLOR
+Compiling routine: RT-DO-COLOR
+Compiling routine: RT-PICK-COLOR
+Compiling routine: MAC-II?
+Compiling routine: Y?
+Compiling routine: RT-CHECK-ADJ
+Compiling routine: RT-UPDATE-ADJ
+Compiling routine: RT-WORD-NUMBERS
+Compiling routine: RT-TIME-OF-DAY?
+Compiling routine: RT-STOP-READ
+Compiling routine: RT-END-OF-GAME
+Compiling routine: NO-NEED
+Compiling routine: RT-TAKE-WITH-MSG
+Compiling routine: RT-YOU-CANT-MSG
+Compiling routine: RT-ALREADY-MSG
+Compiling routine: RT-NOT-LIKELY-MSG
+Compiling routine: RT-NO-POINT-MSG
+Compiling routine: RT-PICK-NEXT
+Compiling routine: RT-NO-RESPONSE-MSG
+Compiling routine: RT-FOOLISH-TO-TALK?
+Compiling routine: RT-WASTE-OF-TIME-MSG
+Compiling routine: FIND-FLAG-LG
+Compiling routine: FIND-FLAG-HERE
+Compiling routine: HAR-HAR
+Compiling routine: RT-IMPOSSIBLE-MSG
+Compiling routine: RT-WONT-HELP-MSG
+Compiling routine: RT-META-IN?
+Compiling routine: RT-CANT-REACH-MSG
+Compiling routine: RT-I-SUNSET
+Compiling routine: RT-COMMA-MSG
+Compiling routine: RT-MOVE-ALL
+Compiling routine: RT-MOVE-ALL-BUT-WORN
+Compiling routine: RT-CENTER-STRING
+Abstracting UTIL to /USR/DEVELOPMENT/ARTHUR/UTIL.
+Loading /USR/DEVELOPMENT/ARTHUR/VERBS.ZIL and compiling it.
+Compiling routine: V-DESC-LEVEL
+Compiling routine: TRANSCRIPT
+Compiling routine: V-SCRIPT
+Compiling routine: V-VERIFY
+Compiling routine: V-UNDO
+Compiling routine: V-COMMAND
+Compiling routine: V-RECORD
+Compiling routine: V-UNRECORD
+Compiling routine: V-INVENTORY
+Compiling routine: V-QUIT
+Compiling routine: RT-FAILED-MSG
+Compiling routine: V-RESTART
+Compiling routine: V-SAVE
+Compiling routine: V-RESTORE
+Compiling routine: V-FIRST-LOOK
+Compiling routine: PRINT-CONTENTS
+Compiling routine: RT-DESCRIBE-OBJECTS
+Compiling routine: SEE-ANYTHING-IN?
+Compiling routine: DESCRIBE-ROOM
+Compiling routine: RT-NOT-HOLDING-MSG?
+Compiling routine: HELD?
+Compiling routine: SEE-INSIDE?
+Compiling routine: V-ASK-WHO-ABOUT
+Compiling routine: V-ASK-WHO-FOR
+Compiling routine: V-ASK-ABOUT
+Compiling routine: V-ASK-FOR
+Compiling routine: V-ATTACK
+Compiling routine: V-BITE
+Compiling routine: V-BLOW
+Compiling routine: V-BREAK
+Compiling routine: V-BUY
+Compiling routine: PRE-CALL
+ ** Warning: Undefined variable assumed LOCAL W
+Compiling routine: V-CALL
+Compiling routine: V-CHALLENGE
+Compiling routine: V-CLIMB-DOWN
+Compiling routine: V-CLIMB-ON
+Compiling routine: V-CLIMB-OVER
+Compiling routine: V-CLIMB-UP
+Compiling routine: V-CLOSE
+Compiling routine: V-CUT
+Compiling routine: V-DIG
+Compiling routine: V-DISMOUNT
+Compiling routine: V-DISTRACT
+Compiling routine: V-DRINK
+Compiling routine: V-DRINK-FROM
+Compiling routine: IDROP
+Compiling routine: V-DROP
+Compiling routine: V-EAT
+Compiling routine: PRE-EMPTY
+Compiling routine: V-EMPTY
+Compiling routine: RT-TOTAL-SIZE
+Compiling routine: RT-OBJ-TOO-LARGE?
+Compiling routine: RT-ROOM-IN-MSG?
+Compiling routine: RT-CHECK-MOVE-MSG?
+Compiling routine: RT-EMPTY-MSG
+Compiling routine: V-EMPTY-FROM
+Compiling routine: V-ENTER
+Compiling routine: RT-DO-WALK
+Compiling routine: V-EXAMINE
+Compiling routine: RT-NOTHING-SPECIAL-MSG
+Compiling routine: V-EXIT
+Compiling routine: RT-NOT-IN-ROOM-MSG
+Compiling routine: V-EXTEND
+Compiling routine: V-EXTINGUISH
+Compiling routine: V-FILL
+Compiling routine: PRE-GIVE
+Compiling routine: V-GIVE
+Compiling routine: V-GIVE-SWP
+Compiling routine: V-GOODBYE
+Compiling routine: RT-HI-BYE-MSG
+Compiling routine: V-HELLO
+Compiling routine: V-HELP
+Compiling routine: V-HIDE
+Compiling routine: V-HIDE-BEHIND
+Compiling routine: V-HOLD-UNDER
+Compiling routine: GLOBAL-IN?
+Compiling routine: RT-GLOBAL-IN?
+Compiling routine: RT-FIRST-YOU-MSG
+Compiling routine: TELL-CANT-FIND
+Compiling routine: V-JOUST
+Compiling routine: V-JUMP
+Compiling routine: V-KISS
+Compiling routine: V-KNEEL
+Compiling routine: V-KNOCK
+Compiling routine: PRE-LAND
+Compiling routine: V-LAND
+Compiling routine: V-LAND-ON
+Compiling routine: V-LIE-DOWN
+Compiling routine: V-LIGHT
+Compiling routine: V-LISTEN
+Compiling routine: V-LOCK
+Compiling routine: V-LOOK
+Compiling routine: V-LOOK-BEHIND
+Compiling routine: V-LOOK-DOWN
+Compiling routine: PRE-LOOK-IN
+Compiling routine: V-LOOK-IN
+Compiling routine: V-LOOK-ON
+Compiling routine: V-LOOK-THRU
+Compiling routine: V-LOOK-UP
+Compiling routine: V-LOOK-UNDER
+Compiling routine: V-LOWER
+Compiling routine: V-MELT
+Compiling routine: V-MOVE
+Compiling routine: V-NO
+Compiling routine: RT-MATCH-KEY
+Compiling routine: RT-OTHER-SIDE
+Compiling routine: RT-LOCK-MSG
+Compiling routine: RT-OPEN-DOOR-MSG
+Compiling routine: V-OPEN
+Compiling routine: V-POINT
+Compiling routine: V-POINT-SWP
+Compiling routine: V-POLISH
+Compiling routine: V-POLISH-SWP
+Compiling routine: V-PRAY
+Compiling routine: PRE-PUT
+Compiling routine: V-PUT
+Compiling routine: PRE-PUT-IN
+Compiling routine: V-PUT-IN
+Compiling routine: RT-PUT-ON-OR-IN
+Compiling routine: V-PUT-THRU
+Compiling routine: V-RAISE
+Compiling routine: V-READ
+Compiling routine: V-RELEASE
+Compiling routine: V-RESCUE
+Compiling routine: V-RETRACT
+Compiling routine: V-RUB
+Compiling routine: V-SAY
+Compiling routine: V-SCRATCH
+Compiling routine: V-SHIELD
+Compiling routine: V-SHIELD-FROM
+Compiling routine: V-SHOCK
+Compiling routine: PRE-SHOW
+Compiling routine: V-SHOW
+Compiling routine: V-SHOW-SWP
+Compiling routine: V-SIT
+Compiling routine: V-SLEEP
+Compiling routine: V-SPARE
+Compiling routine: V-STAND
+Compiling routine: V-TALK-TO
+Compiling routine: PRE-TAKE
+Compiling routine: ITAKE
+Compiling routine: RT-DO-TAKE
+Compiling routine: V-TAKE
+Compiling routine: PRE-TAKE-WITH
+Compiling routine: V-TAKE-WITH
+Compiling routine: V-TELL
+Compiling routine: WONT-HELP-TO-TALK-TO
+Compiling routine: V-TELL-ABOUT
+Compiling routine: V-THANK
+Compiling routine: V-THROW
+Compiling routine: V-THROW-SWP
+Compiling routine: V-THROW-OVER
+Compiling routine: V-TIP
+Compiling routine: V-TOUCH
+Compiling routine: V-TRADE-FOR
+Compiling routine: V-TRADE-WITH
+Compiling routine: V-UNDRESS
+Compiling routine: V-UNLOCK
+Compiling routine: V-UNTIE
+Compiling routine: V-UNWEAR
+Compiling routine: V-WAIT
+Compiling routine: V-WAKE
+Compiling routine: RT-FIND-DIR
+Compiling routine: RT-FIND-ROOM
+Compiling routine: RT-SET-PUPPY
+Compiling routine: RT-CLEAR-PUPPY
+Compiling routine: PRE-WALK
+Compiling routine: V-WALK
+Compiling routine: WALK-THRU-DOOR?
+Compiling routine: RT-GOTO
+Compiling routine: RT-ENTER-ROOM
+Compiling routine: RT-ROOM-NAME-MSG
+Compiling routine: V-WALK-AROUND
+Compiling routine: RT-WALK-WITHIN-ROOM-MSG
+Compiling routine: V-WALK-TO
+Compiling routine: V-WAVE-AT
+Compiling routine: V-WAVE-AT-SWP
+Compiling routine: V-WEAR
+Compiling routine: V-YELL
+ ** Warning: Undefined variable assumed LOCAL W
+Compiling routine: V-YELL-AT
+Compiling routine: V-YES
+Compiling routine: V-ZORK
+Abstracting VERBS to /USR/DEVELOPMENT/ARTHUR/VERBS.
+Loading /USR/DEVELOPMENT/ARTHUR/TRANSFRM.ZIL and compiling it.
+
+Compiling routine: RT-FORM-MSG
+Compiling routine: RT-FORM-TYPE-MSG
+Compiling routine: RT-ANIMAL-CANT-MSG
+Compiling routine: V-TRANSFORM
+Compiling routine: V-CYR-JONES
+Compiling routine: RT-FLY-UP
+Compiling routine: RT-FLY-DOWN
+Abstracting TRANSFRM to /USR/DEVELOPMENT/ARTHUR/TRANSFRM.
+Loading /USR/DEVELOPMENT/ARTHUR/BE.ZIL and compiling it.
+Compiling routine: V-BE
+Compiling routine: TELL-Q-WORD
+Compiling routine: RIGHT-PREP?
+Compiling routine: IS-QUIET?
+Compiling routine: IS-OUTSIDE?
+Compiling routine: IS-OPEN?
+Compiling routine: IS-CLOSED?
+Compiling routine: IS-LOCKED?
+Compiling routine: IS-UNLOCKED?
+Compiling routine: IS-DEAD?
+Compiling routine: IS-ALIVE?
+Compiling routine: IS-HERE?
+Compiling routine: PRSO-IS
+Compiling routine: IS-PRSO-ADJ?
+Compiling routine: YES-BUT?
+Compiling routine: V-CAN?
+Compiling routine: V-MAY?
+Compiling routine: V-STATEMENT
+Compiling routine: V-DO?
+Compiling routine: V-COULD?
+Compiling routine: V-WOULD?
+Compiling routine: V-SHOULD?
+Compiling routine: V-MIGHT?
+Compiling routine: V-WILL?
+Compiling routine: V-MUST?
+Compiling routine: V-BE?
+Compiling routine: V-WHO
+Compiling routine: V-WHAT
+Compiling routine: V-WHEN
+Compiling routine: V-WHERE
+Compiling routine: V-WHY
+Compiling routine: V-HOW
+Abstracting BE to /USR/DEVELOPMENT/ARTHUR/BE.
+Loading /USR/DEVELOPMENT/ARTHUR/FOOD.ZIL and compiling it.
+Compiling routine: RT-I-HUNGER
+Compiling routine: RT-I-SLEEP
+Compiling routine: RT-EAT
+Compiling routine: RT-CHOW-MSG
+Compiling routine: RT-TH-CHEESE
+Compiling routine: RT-TH-DEAD-MOUSE
+Compiling routine: RT-TH-WEEDS
+Compiling routine: RT-TH-MINNOW
+Compiling routine: RT-I-MINNOW
+Compiling routine: RT-TH-MIDGES
+Compiling routine: RT-GN-FOOD
+Abstracting FOOD to /USR/DEVELOPMENT/ARTHUR/FOOD.
+Loading /USR/DEVELOPMENT/ARTHUR/CELL.ZIL and compiling it.
+Compiling routine: RT-RM-CELL
+Compiling routine: RT-CELL-OUT
+Compiling routine: RT-TH-BEHIND-DOOR
+Compiling routine: RT-BEHIND-DOOR
+Compiling routine: RT-LEAVE-DOOR
+Compiling routine: RT-CH-PRISONER
+Compiling routine: RT-FREE-PRISONER-MSG
+Compiling routine: RT-TH-CELL-STONE
+Compiling routine: RT-LG-CELL-DOOR
+Compiling routine: RT-TH-CHAINS
+Compiling routine: RT-TH-PADLOCK
+Compiling routine: RT-CH-CELL-GUARD
+Compiling routine: RT-GN-GUARD
+Compiling routine: RT-CALL-GUARD
+Compiling routine: RT-I-GUARD-1
+Compiling routine: RT-I-GUARD-2
+Compiling routine: RT-I-GUARD-3
+Compiling routine: RT-ESCAPE-MSG
+Compiling routine: RT-OVERPOWER-MSG
+Compiling routine: RT-ARREST-PRISONER-MSG
+Compiling routine: RT-I-ALARM
+Compiling routine: RT-TH-MASTER-KEY
+Compiling routine: RT-RM-HOLE
+Compiling routine: RT-PS-MORTAR
+Compiling routine: RT-PS-STONES
+Compiling routine: RT-ENTER-HOLE
+Compiling routine: RT-EXIT-HOLE
+Abstracting CELL to /USR/DEVELOPMENT/ARTHUR/CELL.
+Loading /USR/DEVELOPMENT/ARTHUR/BOAR.ZIL and compiling it.
+Compiling routine: RT-RM-NORTH-OF-CHASM
+Compiling routine: RT-LG-CHASM
+Compiling routine: RT-ENTER-CHASM
+Compiling routine: RT-MOVE-OVER-CHASM
+Compiling routine: RT-OVER-CHASM
+Compiling routine: RT-RM-SOUTH-OF-CHASM
+Compiling routine: RT-TH-BOAR
+Compiling routine: RT-I-BOAR
+Compiling routine: RT-TH-TUSK
+Compiling routine: RT-TH-APPLETREE
+Compiling routine: RT-TH-APPLE
+Compiling routine: RT-APPLE-MSG
+Abstracting BOAR to /USR/DEVELOPMENT/ARTHUR/BOAR.
+Loading /USR/DEVELOPMENT/ARTHUR/WINDOW.ZIL and compiling it.
+
+Compiling routine: RT-HOT-KEY
+Compiling routine: V-$INVENTORY
+Compiling routine: V-$DESC
+Compiling routine: V-$SCORE
+Compiling routine: V-MAP
+Compiling routine: V-$PICTURE
+Compiling routine: V-$NONE
+Compiling routine: RT-BAR
+Compiling routine: RT-UPDATE-STAT-WINDOW
+Compiling routine: RT-PUT-UP-FOO
+Compiling routine: RT-PUT-UP-OBJS
+Compiling routine: RT-UPDATE-INVT-WINDOW
+Compiling routine: RT-UPDATE-DESC-WINDOW
+Compiling routine: RT-UPDATE-MAP-WINDOW
+Compiling routine: RT-FIND-MAP-TBL
+Compiling routine: RT-REDRAW-MAP
+Compiling routine: RT-DRAW-ROSE
+Compiling routine: RT-MAP-Y
+Compiling routine: RT-MAP-X
+Compiling routine: RT-GET-MAP-Y
+Compiling routine: RT-GET-MAP-X
+Compiling routine: RT-GET-DIR-INFO
+Compiling routine: RT-GET-NEXT-DIR
+Compiling routine: RT-OPPOSITE-DIR
+Compiling routine: RT-DRAW-ROOM-CONNECTIONS
+Compiling routine: RT-DRAW-CONNECTOR
+Compiling routine: RT-CENTER-PIC
+Compiling routine: RT-UPDATE-PICT-WINDOW
+Compiling routine: V-$P
+Compiling routine: V-$D
+Compiling routine: V-$SHOW
+Compiling routine: V-$W
+Abstracting WINDOW to /USR/DEVELOPMENT/ARTHUR/WINDOW.
+Loading /USR/DEVELOPMENT/ARTHUR/SWORD.ZIL and compiling it.
+Compiling routine: RT-TH-SWORD
+Compiling routine: RT-GN-SWORD
+Compiling routine: RT-RM-FORD
+Compiling routine: RT-RAPIDS-MSG
+Compiling routine: RT-EXIT-FORD
+Compiling routine: RT-ENTER-RIVER
+Compiling routine: RT-RM-WEST-OF-FORD
+Compiling routine: RT-PASS-BLACK-KNIGHT
+Compiling routine: RT-CH-BLACK-KNIGHT
+Compiling routine: RT-ATTACK-KNIGHT
+Compiling routine: RT-RESET-BLACK-FIGHT
+Compiling routine: RT-I-RESET-BLOOD
+Compiling routine: RT-I-BLACK-FIGHT
+Compiling routine: RT-I-GET-SWORD
+Compiling routine: RT-TH-BLACK-ARMOUR
+Compiling routine: RT-TH-BLACK-SWORD
+Compiling routine: RT-TH-BLACK-MEDALLION
+Compiling routine: RT-RM-EAST-OF-FORD
+Compiling routine: RT-RM-ABOVE-FORD
+Compiling routine: RT-SPELL-FAILS
+Abstracting SWORD to /USR/DEVELOPMENT/ARTHUR/SWORD.
+Loading /USR/DEVELOPMENT/ARTHUR/PASSWORD.ZIL and compiling it.
+
+Compiling routine: RT-RM-CASTLE-GATE
+Compiling routine: RT-CH-SOLDIERS
+Compiling routine: RT-TH-POLLAXE
+Compiling routine: RT-ENTER-GATE
+Compiling routine: RT-NO-ONE-MSG
+Compiling routine: RT-EXIT-GATE
+Compiling routine: RT-TH-PASSWORD
+Compiling routine: RT-CORRECT-PASSWORD?
+Compiling routine: RT-SOLDIER-SUSPECT
+Compiling routine: RT-LG-CASTLE-GATE
+Compiling routine: RT-RM-PARADE-AREA
+Compiling routine: RT-RM-GREAT-HALL
+Compiling routine: RT-I-SOLDIER-ASK
+Compiling routine: RT-LEAVE-CASTLE
+Compiling routine: RT-TH-LOT-THRONE
+Compiling routine: RT-CH-LOT
+Compiling routine: RT-ATTACK-LOT
+Compiling routine: RT-LOT-IGNORE-MSG
+Compiling routine: RT-GN-KING-LOT
+Compiling routine: RT-MOVE-TAPESTRY
+Compiling routine: RT-TH-LOT-SWORD
+Compiling routine: RT-CH-COURTIERS
+Compiling routine: RT-LG-OWL-TAPESTRY
+Compiling routine: RT-RM-BEHIND-THRONE
+Compiling routine: RT-LISTEN-LOT
+Compiling routine: RT-PS-FAKE-LOT
+Compiling routine: RT-EXIT-THRONE
+Abstracting PASSWORD to /USR/DEVELOPMENT/ARTHUR/PASSWORD.
+Loading /USR/DEVELOPMENT/ARTHUR/ENDGAME.ZIL and compiling it.
+
+Compiling routine: RT-RM-FIELD-OF-HONOUR
+Compiling routine: RT-ENTER-SHALLOWS
+Compiling routine: RT-TRIGGER-ENDGAME
+Compiling routine: RT-I-FIGHT
+Compiling routine: RT-I-LOT-WIN
+Compiling routine: RT-DISTRACT-LOT
+Compiling routine: RT-I-LOT-TRICK
+Compiling routine: RT-I-OUT-OF-TIME
+Compiling routine: RT-TH-STONE
+Compiling routine: RT-TH-EXCALIBUR
+Compiling routine: RT-RM-ABOVE-FIELD
+Abstracting ENDGAME to /USR/DEVELOPMENT/ARTHUR/ENDGAME.
+Loading /USR/DEVELOPMENT/ARTHUR/EEL.ZIL and compiling it.
+Compiling routine: RT-RM-SHALLOWS
+Compiling routine: RT-EXIT-SHALLOW-1
+Compiling routine: RT-EXIT-SHALLOW-2
+Compiling routine: RT-THROW-INTO-ROOM-MSG
+Compiling routine: RT-RM-MID-LAKE
+Compiling routine: RT-RM-BOAT-ROOM
+Compiling routine: RT-CH-KRAKEN
+Compiling routine: RT-KILL-KRAKEN
+Compiling routine: RT-I-KRAKEN-FOLLOW
+Compiling routine: RT-I-KRAKEN-FIGHT-1
+Compiling routine: RT-I-KRAKEN-FIGHT-2
+Compiling routine: RT-TH-BRACELET
+Compiling routine: RT-TH-BOAT
+Compiling routine: RT-RM-LAKE-WINDOW
+Compiling routine: RT-WINDOW-UP
+Compiling routine: RT-PS-ROCKS
+Compiling routine: RT-LG-WINDOW
+Compiling routine: RT-RM-INLET
+Compiling routine: RT-LG-LAKE
+Compiling routine: RT-LG-RIVER
+Compiling routine: RT-RM-RIVER-3
+Compiling routine: RT-PS-MINNOWS
+Compiling routine: RT-RM-RIVER-1
+Compiling routine: RT-RM-ABOVE-LAKE
+Abstracting EEL to /USR/DEVELOPMENT/ARTHUR/EEL.
+Loading /USR/DEVELOPMENT/ARTHUR/BADGER.ZIL and compiling it.
+
+Compiling routine: RT-RM-BADGER-TUNNEL
+Compiling routine: RT-MAKE-MARK
+Compiling routine: RT-NUM-MARKS-MSG
+Compiling routine: RT-WALK-TUNNEL
+Compiling routine: RT-RM-THORNEY-ISLAND
+Compiling routine: RT-GN-ISLAND
+Compiling routine: RT-PS-HAW-BUSH
+Compiling routine: RT-ENTER-TUNNEL
+Compiling routine: RT-FLY-TO-ISLAND
+Abstracting BADGER to /USR/DEVELOPMENT/ARTHUR/BADGER.
+Loading /USR/DEVELOPMENT/ARTHUR/BASIL.ZIL and compiling it.
+Compiling routine: RT-RM-BAS-LAIR
+Compiling routine: RT-EXIT-BAS-LAIR
+Compiling routine: RT-PS-STATUES
+Compiling routine: RT-CH-BASILISK
+Compiling routine: RT-I-BASILISK-1
+Compiling routine: RT-I-BASILISK-2
+Compiling routine: RT-KILL-BASILISK
+Abstracting BASIL to /USR/DEVELOPMENT/ARTHUR/BASIL.
+Loading /USR/DEVELOPMENT/ARTHUR/DRAGON.ZIL and compiling it.
+
+Compiling routine: RT-RM-FOOT-OF-MOUNTAIN
+Compiling routine: RT-LG-MOUNTAIN
+Compiling routine: RT-RM-LEDGE
+Compiling routine: RT-PS-RUBBLE
+Compiling routine: RT-PAST-DRAGON
+Compiling routine: RT-CH-DRAGON
+Compiling routine: RT-I-DRAGON
+Compiling routine: RT-TH-DRAGON-HAIR
+Compiling routine: RT-TH-DRAGON-BODY
+Compiling routine: RT-RM-CAVE
+Compiling routine: RT-PS-GHOSTS
+Compiling routine: RT-TH-GHOSTS
+Compiling routine: RT-GHOST-MORE
+Compiling routine: RT-I-GHOST
+Compiling routine: RT-PS-TUNNEL
+Abstracting DRAGON to /USR/DEVELOPMENT/ARTHUR/DRAGON.
+Loading /USR/DEVELOPMENT/ARTHUR/RAVEN.ZIL and compiling it.
+Compiling routine: RT-RAV-CANT-CLIMB-UP
+Compiling routine: RT-RAV-CLIMBING
+Compiling routine: RT-FALL-OFF-TREE
+Compiling routine: RT-TH-RAVEN-EGG
+Compiling routine: RT-CH-RAVEN
+Compiling routine: RT-I-RAV-GROVE-1
+Compiling routine: RT-I-RAV-GROVE-2
+Compiling routine: RT-I-RAV-NEST-1
+Compiling routine: RT-I-RAV-NEST-2
+Compiling routine: RT-I-RAV-NEST-3
+Compiling routine: RT-RAVEN-WAIT-FOR
+Compiling routine: RT-RM-ABOVE-FOREST
+Compiling routine: RT-RM-RAV-PATH
+Compiling routine: RT-RM-GROVE
+Compiling routine: RT-UP-RAV-GROVE
+Compiling routine: RT-RM-RAVEN-TREE
+Compiling routine: RT-GN-TREE
+Compiling routine: RT-CLIMB-UP
+Compiling routine: RT-CLIMB-DOWN
+Compiling routine: RT-CLIMB-UP-TREE-MSG
+Compiling routine: RT-CLIMB-DOWN-TREE-MSG
+Compiling routine: RT-JUMP-OFF-TREE-MSG
+Compiling routine: RT-RM-RAVEN-NEST
+Compiling routine: RT-EXIT-NEST
+Abstracting RAVEN to /USR/DEVELOPMENT/ARTHUR/RAVEN.
+Loading /USR/DEVELOPMENT/ARTHUR/CASTLE.ZIL and compiling it.
+
+Compiling routine: RT-RM-PASSAGE-1
+Compiling routine: RT-EXIT-PASSAGE-1
+Compiling routine: RT-RM-PASSAGE-2
+Compiling routine: RT-RM-PASSAGE-3
+Compiling routine: RT-RM-BEHIND-FIRE
+Compiling routine: RT-THRU-FIRE
+Compiling routine: RT-TH-CASTLE-FIRE
+Compiling routine: RT-PUT-OUT-FIRE-MSG
+Compiling routine: RT-I-COOL-FIRE
+Compiling routine: RT-RM-CAS-KITCHEN
+Compiling routine: RT-TH-CASTLE-TABLE
+Compiling routine: RT-TH-BARREL
+Compiling routine: RT-TH-BARREL-WATER
+Compiling routine: RT-TH-PUMICE
+Compiling routine: RT-LG-KITCHEN-DOOR
+Compiling routine: RT-NO-KEYHOLE-MSG
+Compiling routine: RT-RM-SMALL-CHAMBER
+Compiling routine: RT-EXIT-CHAMBER
+Compiling routine: RT-PS-CHAIRS
+Compiling routine: RT-LG-BADGER-TAPESTRY
+Compiling routine: RT-RM-END-OF-HALL
+Compiling routine: RT-RM-HALL
+Compiling routine: RT-RM-BOTTOM-OF-STAIRS
+Compiling routine: RT-EXIT-STAIRS
+Compiling routine: RT-RM-ARMOURY
+Compiling routine: RT-PS-DAGGER
+Compiling routine: RT-PS-SHIELDS
+Compiling routine: RT-PS-PIKESTAFFS
+Compiling routine: RT-TH-ARMOURY-TABLE
+Compiling routine: RT-LG-CASTLE
+Compiling routine: RT-RM-ABOVE-CASTLE
+Abstracting CASTLE to /USR/DEVELOPMENT/ARTHUR/CASTLE.
+Loading /USR/DEVELOPMENT/ARTHUR/REDNITE.ZIL and compiling it.
+
+Compiling routine: RT-RM-END-OF-CAUSEWAY
+Compiling routine: RT-RED-GIFTS-MSG
+Compiling routine: RT-CH-RED-KNIGHT
+Compiling routine: RT-RED-KNIGHT-GIFTS
+Compiling routine: RT-RM-CAUSEWAY
+Compiling routine: RT-YOU-WOULD-DROWN
+Abstracting REDNITE to /USR/DEVELOPMENT/ARTHUR/REDNITE.
+Loading /USR/DEVELOPMENT/ARTHUR/LADY.ZIL and compiling it.
+Compiling routine: RT-RM-ISLAND
+Compiling routine: RT-RM-UG-CHAMBER
+Compiling routine: RT-CH-NIMUE
+Compiling routine: RT-WAKE-LADY
+Compiling routine: RT-CALL-NIMUE
+Compiling routine: RT-GN-BEAUTIFUL-WOMAN
+Compiling routine: RT-TH-BIER
+Compiling routine: RT-TH-GAUNTLET
+Compiling routine: RT-LG-SILVER-DOOR
+Compiling routine: RT-TH-HAWTHORN
+Compiling routine: RT-I-BLOOM
+Abstracting LADY to /USR/DEVELOPMENT/ARTHUR/LADY.
+Loading /USR/DEVELOPMENT/ARTHUR/FOREST.ZIL and compiling it.
+
+Compiling routine: RT-RM-ENCHANTED-FOREST
+Compiling routine: RT-RM-LEP-PATH
+Compiling routine: RT-LG-ENCHANTED-TREES
+Compiling routine: RT-LG-FOREST
+Abstracting FOREST to /USR/DEVELOPMENT/ARTHUR/FOREST.
+Loading /USR/DEVELOPMENT/ARTHUR/JOUST.ZIL and compiling it.
+Compiling routine: RT-RM-EDGE-OF-WOODS
+Compiling routine: RT-GN-LANCE
+Compiling routine: RT-TH-LANCE
+Compiling routine: RT-TAKE-LANCE
+Compiling routine: RT-JOUST
+Compiling routine: RT-JOUST-STATUS-MSG
+Compiling routine: RT-TARGET-MSG
+Compiling routine: RT-JOUST-READ
+Compiling routine: RT-TH-TREE
+Compiling routine: RT-TH-HORN
+Compiling routine: RT-TH-HORSE
+Compiling routine: RT-HORSE-TIED
+Compiling routine: RT-CH-BLUE-KNIGHT
+Compiling routine: RT-TH-BLUE-PAVILION
+Compiling routine: RT-ENTER-BLUE-PAVILION
+Compiling routine: RT-TH-SHIELD
+Compiling routine: RT-TH-ARMOUR
+Compiling routine: RT-GN-ARMOUR
+Compiling routine: RT-RM-ABOVE-EDGE-OF-WOODS
+Abstracting JOUST to /USR/DEVELOPMENT/ARTHUR/JOUST.
+Loading /USR/DEVELOPMENT/ARTHUR/DEMON.ZIL and compiling it.
+Compiling routine: RT-RM-DEMON-HALL
+Compiling routine: RT-PS-DEMON-SHIELDS
+Compiling routine: RT-CH-GIRL
+Compiling routine: RT-CH-DEMON
+Compiling routine: RT-DEMON-OFFER-MSG
+Compiling routine: RT-FREE-DEMON-MSG
+Compiling routine: RT-TH-GOLD-KEY
+Compiling routine: RT-TH-MANACLE
+Compiling routine: RT-TH-MANACLES
+Compiling routine: RT-TH-FLEECE
+Compiling routine: RT-TH-DEMON-THRONE
+Abstracting DEMON to /USR/DEVELOPMENT/ARTHUR/DEMON.
+Loading /USR/DEVELOPMENT/ARTHUR/ICE-HOT.ZIL and compiling it.
+
+Compiling routine: RT-RM-ICE-ROOM
+Compiling routine: RT-PS-ICE
+Compiling routine: RT-TH-ICE
+Compiling routine: RT-I-ICE-FALL
+Compiling routine: RT-I-ICE-MELT
+Compiling routine: RT-I-TEMP
+Compiling routine: RT-RM-HOT-ROOM
+Compiling routine: RT-LG-HOT-DOOR
+Abstracting ICE-HOT to /USR/DEVELOPMENT/ARTHUR/ICE-HOT.
+Loading /USR/DEVELOPMENT/ARTHUR/CHESTNUT.ZIL and compiling it.
+
+Compiling routine: RT-RM-CHESTNUT-PATH
+Compiling routine: RT-SURVIVE-CONKERS
+Compiling routine: RT-PS-CONKERS
+Compiling routine: RT-LG-CHESTNUT-TREES
+Compiling routine: RT-I-CONKERS-1
+Compiling routine: RT-I-CONKERS-2
+Compiling routine: RT-I-CONKERS-3
+Compiling routine: RT-I-CONKERS-4
+Compiling routine: RT-I-CONKERS-5
+Compiling routine: RT-TREES-ATTACK?
+Abstracting CHESTNUT to /USR/DEVELOPMENT/ARTHUR/CHESTNUT.
+Loading /USR/DEVELOPMENT/ARTHUR/TOWER.ZIL and compiling it.
+Compiling routine: RT-RM-TOW-PATH
+Compiling routine: RT-RM-TOW-CLEARING
+Compiling routine: RT-RM-CIRC-ROOM
+Compiling routine: RT-LG-IVORY-DOOR
+Compiling routine: RT-RM-STAIRS-1
+Compiling routine: RT-RM-LANDING
+Compiling routine: RT-ENTER-CRACK
+Compiling routine: RT-IN-LANDING
+Compiling routine: RT-RM-TOWER-ROOM
+Compiling routine: RT-PS-WINDOW
+Compiling routine: RT-CHECK-RHYMER-NAME
+Compiling routine: RT-CH-RHYMER
+Compiling routine: RT-RHYMER-MSG
+Compiling routine: RT-GN-OLD-MAN
+Compiling routine: RT-TH-TOWER-TABLE
+Compiling routine: RT-LG-WOODEN-DOOR
+Compiling routine: RT-RM-CRACK-ROOM
+Compiling routine: RT-LEAVE-CRACK
+Compiling routine: RT-LG-CRACK
+Compiling routine: RT-RM-STAIRS-2
+Compiling routine: RT-RM-CELLAR
+Compiling routine: RT-PS-LETTERS
+Compiling routine: RT-CELLAR-MSG
+Compiling routine: RT-TH-MAGIC-RING
+Compiling routine: RT-LG-TOWER
+Abstracting TOWER to /USR/DEVELOPMENT/ARTHUR/TOWER.
+Loading /USR/DEVELOPMENT/ARTHUR/BOG.ZIL and compiling it.
+Compiling routine: RT-RM-MOOR
+Compiling routine: RT-TH-SLEAN
+Compiling routine: RT-TH-PEAT-BRICK
+Compiling routine: RT-RM-COTTAGE
+Compiling routine: RT-CH-PEASANT
+Compiling routine: RT-BOG-DIRECTIONS
+Compiling routine: RT-TH-DIRECTIONS
+Compiling routine: RT-TH-SPLINT
+Compiling routine: RT-TH-PALLET
+Compiling routine: RT-TH-CRUTCH
+Compiling routine: RT-TH-COTTAGE-FIRE
+Compiling routine: RT-LIGHT-FIRE
+Compiling routine: RT-RM-EDGE-OF-BOG
+Compiling routine: RT-PS-SIGN
+Compiling routine: RT-RM-BOG
+Compiling routine: RT-DROP-IN-BOG
+Compiling routine: RT-WRONG-BOG-MSG
+Compiling routine: RT-WALK-BOG
+Compiling routine: RT-RM-ABOVE-MOOR
+Compiling routine: RT-RM-ABOVE-BOG
+Abstracting BOG to /USR/DEVELOPMENT/ARTHUR/BOG.
+Loading /USR/DEVELOPMENT/ARTHUR/LEPRCHAN.ZIL and compiling it.
+
+Compiling routine: RT-RM-GLADE
+Compiling routine: RT-PS-TRACKS
+Compiling routine: RT-PS-UNDERGROWTH
+Compiling routine: RT-UNDERGROWTH
+Compiling routine: RT-CH-LEPRECHAUN
+Compiling routine: RT-JUMP-L-MSG
+Compiling routine: RT-L-STARTLED-MSG
+Compiling routine: RT-I-LEP-1
+Compiling routine: RT-I-LEP-2
+Compiling routine: RT-I-LEP-3
+Compiling routine: RT-I-LEP-4
+Compiling routine: RT-I-LEP-5
+Compiling routine: RT-TH-ROCK
+Compiling routine: RT-TH-BEHIND-ROCK
+Compiling routine: RT-BEHIND-ROCK
+Compiling routine: RT-LEAVE-ROCK
+Compiling routine: RT-TH-WHISKY-JUG
+Compiling routine: RT-GN-WHISKY
+Compiling routine: RT-TH-WHISKY
+Abstracting LEPRCHAN to /USR/DEVELOPMENT/ARTHUR/LEPRCHAN.
+Loading /USR/DEVELOPMENT/ARTHUR/MERLIN.ZIL and compiling it.
+
+Compiling routine: RT-RM-MERPATH
+Compiling routine: RT-MERPATH-UP
+Compiling routine: RT-RM-OUTSIDE-CRYSTAL-CAVE
+Compiling routine: RT-RM-CRYSTAL-CAVE
+Compiling routine: RT-CH-MERLIN
+Compiling routine: RT-TH-SCROLL
+Compiling routine: RT-TH-BAG
+Compiling routine: RT-TH-CRYSTAL-BALL
+Compiling routine: RT-TH-TORQUE
+Compiling routine: RT-TH-CRYSTAL
+Compiling routine: RT-I-CRYSTAL
+Compiling routine: RT-GN-KEY
+Compiling routine: RT-RM-ABOVE-MERCAVE
+Abstracting MERLIN to /USR/DEVELOPMENT/ARTHUR/MERLIN.
+Loading /USR/DEVELOPMENT/ARTHUR/TAVERN.ZIL and compiling it.
+
+Compiling routine: RT-RM-TAVERN
+Compiling routine: RT-RESET-TAVERN
+Compiling routine: RT-PS-SMOKE
+Compiling routine: RT-PS-SHADOWS
+Compiling routine: RT-PS-TABLE
+Compiling routine: RT-TH-TAVERN-FIRE
+Compiling routine: RT-LG-THATCH
+Compiling routine: RT-CH-FARMERS
+Compiling routine: RT-NEXT-NUM
+Compiling routine: RT-I-MEN-TALK
+Compiling routine: RT-TH-TANKARDS
+Compiling routine: RT-TH-BEER
+Abstracting TAVERN to /USR/DEVELOPMENT/ARTHUR/TAVERN.
+Loading /USR/DEVELOPMENT/ARTHUR/KITCHEN.ZIL and compiling it.
+
+Compiling routine: RT-RM-TAV-KITCHEN
+Compiling routine: RT-RESET-KITCHEN
+Compiling routine: RT-CH-COOK
+Compiling routine: RT-I-COOK
+Compiling routine: RT-TH-CAGE
+Compiling routine: RT-TH-BIRD
+Compiling routine: RT-FREE-BIRD-MSG
+Compiling routine: RT-GN-BIRD
+Compiling routine: RT-TH-CUPBOARD
+Compiling routine: RT-TH-CUPBOARD-KEY
+Compiling routine: RT-TH-SPICE-BOTTLE
+Compiling routine: RT-GN-SPICE
+Compiling routine: RT-TH-SPICE
+Compiling routine: RT-TH-TAVERN-TABLE
+Compiling routine: RT-TH-DROPPING
+Abstracting KITCHEN to /USR/DEVELOPMENT/ARTHUR/KITCHEN.
+Loading /USR/DEVELOPMENT/ARTHUR/IKNIGHT.ZIL and compiling it.
+
+Compiling routine: RT-RM-MEADOW
+Compiling routine: RT-MEADOW-UP
+Compiling routine: RT-ENTER-IPAVILION
+Compiling routine: RT-GN-MEADOW
+Compiling routine: RT-TH-GLITTER
+Compiling routine: RT-RM-PAVILION
+Compiling routine: RT-TH-COUNTER
+Compiling routine: RT-CH-I-KNIGHT
+Compiling routine: RT-KNIGHT-RETURN-STUFF
+Compiling routine: RT-KNIGHT-ASK
+Compiling routine: RT-QUIZ
+Compiling routine: RT-TH-BRASS-EGG
+Compiling routine: RT-GN-EGG
+Compiling routine: RT-RM-ABOVE-MEADOW
+Abstracting IKNIGHT to /USR/DEVELOPMENT/ARTHUR/IKNIGHT.
+Loading /USR/DEVELOPMENT/ARTHUR/TOWN.ZIL and compiling it.
+Compiling routine: RT-RM-TOWN-GATE
+Compiling routine: RT-LG-TOWN-GATE
+Compiling routine: RT-PS-HUTS
+Compiling routine: RT-RM-VILLAGE-GREEN
+Compiling routine: RT-TH-OAK
+Compiling routine: RT-TH-OAK-HOLE
+Compiling routine: RT-RM-SMITHY
+Compiling routine: RT-PS-BUSH
+Compiling routine: RT-TH-SMITH-HEARTH
+Compiling routine: RT-LG-TOWN
+Compiling routine: RT-RM-ABOVE-TOWN
+Abstracting TOWN to /USR/DEVELOPMENT/ARTHUR/TOWN.
+Loading /USR/DEVELOPMENT/ARTHUR/IDIOT.ZIL and compiling it.
+Compiling routine: RT-RM-TOWN-SQUARE
+Compiling routine: RT-CH-IDIOT
+Compiling routine: RT-IDIOT-PLAY-MSG
+Compiling routine: RT-IDIOT-WHISPERS-MSG
+Compiling routine: RT-I-IDIOT-MSG
+Compiling routine: RT-IDIOT-TRADE
+Compiling routine: RT-IDIOT-TAKE
+Compiling routine: RT-IDIOT-GIVE
+Abstracting IDIOT to /USR/DEVELOPMENT/ARTHUR/IDIOT.
+Loading /USR/DEVELOPMENT/ARTHUR/CHURCH.ZIL and compiling it.
+
+Compiling routine: RT-RM-CHURCHYARD
+Compiling routine: RT-PS-STEPS
+Compiling routine: RT-PS-FAKE-SOLDIERS
+Compiling routine: RT-TH-GRAVESTONE
+Compiling routine: RT-GN-STONE
+Compiling routine: RT-TH-BEHIND-G-STONE
+Compiling routine: RT-BEHIND-STONE
+Compiling routine: RT-LEAVE-STONE
+Compiling routine: RT-LG-CHURCH-GATE
+Compiling routine: RT-SEIZE-MSG
+Compiling routine: RT-I-SOLDIER-1
+Compiling routine: RT-I-SOLDIER-2
+Compiling routine: RT-I-SOLDIER-3
+Compiling routine: RT-I-SOLDIER-4
+Compiling routine: RT-I-LOT
+Compiling routine: RT-RM-CHURCH
+Compiling routine: RT-PS-BENCHES
+Compiling routine: RT-TH-ALTAR
+Compiling routine: RT-TH-TUNIC
+Compiling routine: RT-TH-BREECHES
+Compiling routine: RT-TH-GLASS
+Abstracting CHURCH to /USR/DEVELOPMENT/ARTHUR/CHURCH.
+Loading /USR/DEVELOPMENT/ARTHUR/PLACES.ZIL and compiling it.
+
+Compiling routine: RT-RM-FORK-IN-ROAD
+Compiling routine: RT-PS-FORK-ROCKS
+Compiling routine: RT-PS-TREES
+Compiling routine: RT-RM-ROAD
+Abstracting PLACES to /USR/DEVELOPMENT/ARTHUR/PLACES.
+Loading /USR/DEVELOPMENT/ARTHUR/GLOBAL.ZIL and compiling it.
+
+Compiling routine: RT-GLOBAL-HERE
+Compiling routine: RT-YOU
+Compiling routine: RT-TH-HUMAN-BODY
+Compiling routine: RT-GN-BODY
+Compiling routine: RT-TH-PLAYER-BODY
+Compiling routine: RT-TH-ANIMAL-BODY
+Compiling routine: RT-TH-MOUTH
+Compiling routine: RT-TH-SHELL
+Compiling routine: RT-TH-HEAD
+Compiling routine: RT-TH-LEGS
+Compiling routine: RT-RETRACT-EXTEND-MSG
+Compiling routine: RT-TH-HANDS
+Compiling routine: RT-NO-BODY-PART-MSG
+Compiling routine: RT-TH-GROUND
+Compiling routine: RT-TH-SKY
+Compiling routine: RT-TH-HOLE
+Compiling routine: RT-TH-WATER
+Compiling routine: RT-TH-BELLS
+Compiling routine: RT-LG-WALL
+Compiling routine: RT-LG-STAIRS
+Compiling routine: RT-LG-PATH
+Abstracting GLOBAL to /USR/DEVELOPMENT/ARTHUR/GLOBAL.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/CLUES.ZIL and compiling it.
+
+Compiling routine: DO-HINTS
+Compiling routine: H-PICK-QUESTION
+Compiling routine: H-NEW-CURSOR
+Compiling routine: SELECT-HINT-BY-MOUSE
+Compiling routine: INVERSE-LINE
+Compiling routine: PRINT-SPACES
+Compiling routine: INPUT-DEMO
+Compiling routine: END-DEMO
+Compiling routine: SLIDE-SHOW-HANDLER
+Compiling routine: DISPLAY-HINT
+Compiling routine: RT-SEE-QST?
+Compiling routine: H-CHAPT-NAME
+Compiling routine: H-GET-QUEST
+Compiling routine: H-PUT-UP-FROBS
+Compiling routine: INIT-HINT-SCREEN
+Compiling routine: LEAVE-HINT-SCREEN
+Compiling routine: HINT-TITLE
+Compiling routine: LEFT-LINE
+Compiling routine: RIGHT-LINE
+Compiling routine: CENTER-LINE
+Compiling routine: JUSTIFIED-LINE
+Abstracting CLUES to /USR/DEVELOPMENT/ARTHUR/CLUES.
+Loading /USR/DEVELOPMENT/ARTHUR/HINTS.ZIL and compiling it.
+Compiling routine: V-HINTS-NO
+Compiling routine: V-HINT
+Compiling routine: RT-H-STONE-STOLEN?
+Compiling routine: RT-H-LOT-ATTENTION-2?
+Compiling routine: RT-H-FIGHT-LOT?
+Compiling routine: RT-H-BEAT-LOT?
+Compiling routine: RT-H-DEFEAT-LOT?
+Compiling routine: RT-H-I-KNIGHT-2?
+Compiling routine: RT-H-CASTLE-2?
+Compiling routine: RT-H-PASSWORD-2?
+Compiling routine: RT-H-PASSWORD-3?
+Compiling routine: RT-H-HEARD-PASSWORD?
+Compiling routine: RT-H-PRISONER-OUT?
+Compiling routine: RT-H-PRISONER-2?
+Compiling routine: RT-H-BRACELET-2?
+Compiling routine: RT-H-HEARD-MURMUR?
+Compiling routine: RT-H-EGG-2?
+Compiling routine: RT-H-TOWER-2?
+Compiling routine: RT-H-NAME-2?
+Compiling routine: RT-H-NAME-3?
+Compiling routine: RT-H-TUSK-2?
+Compiling routine: RT-H-SEEN-BOG?
+Compiling routine: RT-H-SEEN-THORNY-ISLAND?
+Compiling routine: RT-H-BLACK-KNIGHT-2?
+Compiling routine: RT-H-BLACK-KNIGHT-3?
+Compiling routine: RT-H-DRAGON-2?
+Compiling routine: RT-H-TALKING-DOOR-2?
+Compiling routine: RT-H-SEEN-DEMON?
+Abstracting HINTS to /USR/DEVELOPMENT/ARTHUR/HINTS.
+ ** Warning: Undefined Routine: DIR-VERB-PRSI?
+ ** Warning: Never defined - FL-TRY-TAKE
+ ** Warning: Never defined - FL-TRANSPARENT
+ ** Warning: Never defined - FL-TOUCHED
+ ** Warning: Never defined - FL-TAKEABLE
+ ** Warning: Never defined - FL-SURFACE
+ ** Warning: Never defined - FL-SEEN
+ ** Warning: Never defined - FL-SEARCH
+ ** Warning: Never defined - FL-ROOMS
+ ** Warning: Never defined - FL-PLURAL
+ ** Warning: Never defined - FL-PERSON
+ ** Warning: Never defined - FL-OPEN
+ ** Warning: Never defined - FL-LIGHTED
+ ** Warning: Never defined - FL-NO-ARTICLE
+ ** Warning: Never defined - FL-INVISIBLE
+ ** Warning: Never defined - FL-FEMALE
+ ** Warning: Never defined - FL-CONTAINER
+
+Warnings: 19
+ ** Note: OBJECT has no properties: INTQUOTE
+ ** Note: OBJECT has no properties: ROOMS
+ ** Note: OBJECT has no properties: TH-CLOTHES-BIN
+Vocabulary: 1022
+
+Verbs: 155
+
+Real globals: 156
+
+BOTTOM-HINT-NUM		   GL-MEN-NUM		      HERE
+CLOCK-WAIT		   GL-MEN-START		      IDEBUG
+CLOCKER-RUNNING		   GL-MEN-TALK?		      LAST-PSEUDO-LOC
+CURRENT-REDUCTION	   GL-MOUSE-X		      LIT
+DEMO-VERSION?		   GL-MOUSE-Y		      ME
+ERROR-PRIORITY		   GL-MOVES		      NOW-PRSI
+ERROR-STRING		   GL-NEW-TIME		      OBJ-SWAP
+GET-HINT-ROUTINE	   GL-NEXT-WINNER	      OHERE
+GL-AUTHOR-SIZE		   GL-NOTIFY-SCORE?	      OPRSO
+GL-B-COLOR		   GL-OLD-FORM		      OTLEXV
+GL-BELL-WAIT		   GL-PICT-SILVER-DOOR?	      P-CAN-UNDO
+GL-BLACK-FIGHT		   GL-PICTURE-NUM	      P-CONT
+GL-BOAR-NUM		   GL-PLAYER-FORM	      P-DBUG
+GL-BOG-POS		   GL-POEM-LINE		      P-DIRECTION
+GL-BOG-START		   GL-PUPPY		      P-HER-OBJECT
+GL-BR-X			   GL-Q-MAX		      P-HIM-OBJECT
+GL-BR-Y			   GL-Q-TBL		      P-IT-OBJECT
+GL-CLK-RUN		   GL-QUESTION		      P-LEN
+GL-COLOR-NOTE		   GL-RAV-P-CNT		      P-MULT
+GL-CONKERS-DONE		   GL-RAVEN-OBJ		      P-NOT-HERE
+GL-CONKERS-RUNNING	   GL-ROSE-X		      P-NUMBER
+GL-COOK-NUM		   GL-ROSE-Y		      P-OFLAG
+GL-CRYSTAL-HINT		   GL-SC-CHV		      P-OLEN
+GL-DOOR-DIR		   GL-SC-EXP		      P-PRSA-WORD
+GL-DRAGON-CNT		   GL-SC-QST		      P-PRSI
+GL-DROP-HERE		   GL-SC-WIS		      P-PRSO
+GL-EGG-IN-NEST?		   GL-SCR-WID		      P-RESPONDED
+GL-F-COLOR		   GL-SH		      P-RUNNING
+GL-FIGHT-CNT		   GL-SHIELD-CONKERS	      P-THEM-OBJECT
+GL-FONT-X		   GL-SL-FORM		      P-WALK-DIR
+GL-FONT-Y		   GL-SL-HERE		      P-WON
+GL-FORM-ABORT		   GL-SL-HIDE		      P-WORD-NUMBER
+GL-GHOST-CNT		   GL-SL-TIME		      P-WORDS-AGAIN
+GL-GIFT-COUNT		   GL-SL-VEH		      PARSE-SENTENCE-ACTIVATION
+
+GL-HAIR-CNT		   GL-SLEEP		      PARSER-RESULT
+GL-HIDING		   GL-SOLDIER-CNT	      PMEM-STORE-POINTER
+GL-HINT-WARNING		   GL-SPACE-WIDTH	      PMEM-STORE-WARN
+GL-HINTS-OFF		   GL-TAKEOFF-ROOM	      PMEM-STORE-WORDS
+GL-HORN-CNT		   GL-TEMP		      PMEM-WORDS-USED
+GL-HORSE-CNT		   GL-TL-X		      PRSA
+GL-HUNGER		   GL-TL-Y		      PRSI
+GL-ICE-TEMP		   GL-TUNNEL-NUM	      PRSI-NP
+GL-ICE-TEXT		   GL-UPDATE-WINDOW	      PRSO
+GL-IDIOT-MSG		   GL-VOICE?		      PRSO-NP
+GL-IDIOT-WAIT		   GL-WHISKY-DRINK	      PRSQ
+GL-ISLAND-DIR		   GL-WIN-N		      PRSS
+GL-K-LN			   GL-WIN-X		      QCONTEXT
+GL-K-SH			   GL-WIN-Y		      SEARCH-FLAGS
+GL-LN			   GL-WINDOW-TYPE	      SPLITS
+GL-LOC-TRAIL		   H-CHAPT-NUM		      TLEXV
+GL-MAP-GRID-X		   H-OR-USE-MOUSE-WID	      VERBOSITY
+GL-MAP-GRID-Y		   H-QUEST-NUM		      WINNER
+
+Objects: 281
+
+CH-BASILISK		 RM-CIRC-ROOM		  TH-CHEESE
+CH-BLACK-KNIGHT		 RM-COTTAGE		  TH-CLOTHES-BIN
+CH-BLUE-KNIGHT		 RM-CRACK-ROOM		  TH-COTTAGE-FIRE
+CH-CELL-GUARD		 RM-CRYSTAL-CAVE	  TH-COUNTER
+CH-COOK			 RM-DEMON-HALL		  TH-CRUTCH
+CH-COURTIERS		 RM-EAST-OF-FORD	  TH-CRYSTAL
+CH-DEMON		 RM-EDGE-OF-BOG		  TH-CRYSTAL-BALL
+CH-DRAGON		 RM-EDGE-OF-WOODS	  TH-CUPBOARD
+CH-FARMERS		 RM-ENCHANTED-FOREST	  TH-CUPBOARD-KEY
+CH-GIRL			 RM-END-OF-CAUSEWAY	  TH-DEAD-MOUSE
+CH-I-KNIGHT		 RM-END-OF-HALL		  TH-DEMON-THRONE
+CH-IDIOT		 RM-FIELD-OF-HONOUR	  TH-DIRECTIONS
+CH-KRAKEN		 RM-FOOT-OF-MOUNTAIN	  TH-DRAGON-BODY
+CH-LEPRECHAUN		 RM-FORD		  TH-DRAGON-HAIR
+CH-LOT			 RM-FORK-IN-ROAD	  TH-DROPPING
+CH-MERLIN		 RM-GLADE		  TH-EXCALIBUR
+CH-NIMUE		 RM-GREAT-HALL		  TH-FLEECE
+CH-PEASANT		 RM-GROVE		  TH-FUTURE-OBJECT
+CH-PLAYER		 RM-HALL		  TH-GAUNTLET
+CH-PRISONER		 RM-HOLE		  TH-GHOSTS
+CH-RAVEN		 RM-HOT-ROOM		  TH-GLASS
+CH-RED-KNIGHT		 RM-ICE-ROOM		  TH-GLITTER
+CH-RHYMER		 RM-INLET		  TH-GOLD-KEY
+CH-SOLDIERS		 RM-ISLAND		  TH-GRAVESTONE
+GENERIC-OBJECTS		 RM-LAKE-WINDOW		  TH-GREEN-LANCE
+GLOBAL-HERE		 RM-LANDING		  TH-GROUND
+GLOBAL-OBJECTS		 RM-LEDGE		  TH-HANDS
+HER			 RM-LEP-PATH		  TH-HAWTHORN
+HIM			 RM-MEADOW		  TH-HEAD
+INTADJ			 RM-MERPATH		  TH-HOLE
+INTDIR			 RM-MID-LAKE		  TH-HORN
+INTNUM			 RM-MOOR		  TH-HORSE
+INTPP			 RM-NORTH-OF-CHASM	  TH-HUMAN-BODY
+INTQUOTE		 RM-OUTSIDE-CRYSTAL-CAVE  TH-ICE
+IT			 RM-PARADE-AREA		  TH-IVORY-KEY
+LG-BADGER-TAPESTRY	 RM-PASSAGE-1		  TH-JOUST
+LG-CASTLE		 RM-PASSAGE-2		  TH-LADY-NOSE
+LG-CASTLE-GATE		 RM-PASSAGE-3		  TH-LEFT-MANACLE
+LG-CELL-DOOR		 RM-PAVILION		  TH-LEGS
+LG-CHASM		 RM-RAV-PATH		  TH-LOT-SWORD
+LG-CHESTNUT-TREES	 RM-RAVEN-NEST		  TH-LOT-THRONE
+LG-CHURCH-GATE		 RM-RAVEN-TREE		  TH-MAGIC
+LG-CRACK		 RM-RIVER-1		  TH-MAGIC-RING
+LG-ENCHANTED-TREES	 RM-RIVER-2		  TH-MANACLES
+LG-FOREST		 RM-RIVER-3		  TH-MASTER-KEY
+LG-HOT-DOOR		 RM-ROAD		  TH-MIDGES
+LG-IVORY-DOOR		 RM-SHALLOWS		  TH-MINNOW
+LG-KITCHEN-DOOR		 RM-SMALL-CHAMBER	  TH-MOTHER
+LG-LAKE			 RM-SMITHY		  TH-MOUTH
+LG-MOUNTAIN		 RM-SOUTH-OF-CHASM	  TH-NAME
+LG-OWL-TAPESTRY		 RM-STAIRS-1		  TH-OAK
+LG-PATH			 RM-STAIRS-2		  TH-OAK-HOLE
+LG-PEAT			 RM-TAV-KITCHEN		  TH-PADLOCK
+LG-RIVER		 RM-TAVERN		  TH-PALLET
+LG-SILVER-DOOR		 RM-THORNEY-ISLAND	  TH-PASSWORD
+LG-STAIRS		 RM-TOW-CLEARING	  TH-PEAT-BRICK
+LG-THATCH		 RM-TOW-PATH		  TH-PLAYER-BODY
+LG-TOWER		 RM-TOWER-ROOM		  TH-POLLAXE
+LG-TOWN			 RM-TOWN-GATE		  TH-PUMICE
+LG-TOWN-GATE		 RM-TOWN-SQUARE		  TH-RAVEN-EGG
+LG-WALL			 RM-UG-CHAMBER		  TH-RED-LANCE
+LG-WINDOW		 RM-VILLAGE-GREEN	  TH-RHYME
+LG-WOODEN-DOOR		 RM-WEST-OF-FORD	  TH-RIGHT-MANACLE
+LOCAL-GLOBALS		 ROOMS			  TH-RIOTHAMUS
+NOT-HERE-OBJECT		 TH-ALTAR		  TH-ROCK
+PSEUDO-OBJECT		 TH-ANIMAL-BODY		  TH-SCROLL
+RM-ABOVE-BOG		 TH-APPLE		  TH-SHELL
+RM-ABOVE-CASTLE		 TH-APPLETREE		  TH-SHERLOCK
+RM-ABOVE-EDGE-OF-WOODS	 TH-ARMOUR		  TH-SHIELD
+RM-ABOVE-FIELD		 TH-ARMOURY-TABLE	  TH-SILVER-KEY
+RM-ABOVE-FORD		 TH-BAG			  TH-SKY
+RM-ABOVE-FOREST		 TH-BARREL		  TH-SLEAN
+RM-ABOVE-LAKE		 TH-BARREL-WATER	  TH-SMITH-HEARTH
+RM-ABOVE-MEADOW		 TH-BEER		  TH-SPICE
+RM-ABOVE-MERCAVE	 TH-BEHIND-DOOR		  TH-SPICE-BOTTLE
+RM-ABOVE-MOOR		 TH-BEHIND-G-STONE	  TH-SPLINT
+RM-ABOVE-TOWN		 TH-BEHIND-ROCK		  TH-STONE
+RM-ARMOURY		 TH-BELLS		  TH-SWORD
+RM-BADGER-TUNNEL	 TH-BIER		  TH-TANKARDS
+RM-BAS-LAIR		 TH-BIRD		  TH-TAVERN-FIRE
+RM-BEHIND-FIRE		 TH-BLACK-ARMOUR	  TH-TAVERN-TABLE
+RM-BEHIND-THRONE	 TH-BLACK-MEDALLION	  TH-TIME
+RM-BOAT-ROOM		 TH-BLACK-SWORD		  TH-TORQUE
+RM-BOG			 TH-BLUE-PAVILION	  TH-TOWER-TABLE
+RM-BOTTOM-OF-STAIRS	 TH-BOAR		  TH-TREE
+RM-CAS-KITCHEN		 TH-BOAT		  TH-TUNIC
+RM-CASTLE-GATE		 TH-BRACELET		  TH-TUSK
+RM-CAUSEWAY		 TH-BRASS-EGG		  TH-WATER
+RM-CAVE			 TH-BREECHES		  TH-WEEDS
+RM-CELL			 TH-CAGE		  TH-WHISKY
+RM-CELLAR		 TH-CASTLE-FIRE		  TH-WHISKY-JUG
+RM-CHESTNUT-PATH	 TH-CASTLE-TABLE	  THEM
+RM-CHURCH		 TH-CELL-STONE		  YOU
+RM-CHURCHYARD		 TH-CHAINS
+
+Properties: 26
+
+P?ACTION     P?DOWN	  P?IN	       P?OWNER	    P?SW	 P?WEST
+P?ADJACENT   P?EAST	  P?NE	       P?SCORE	    P?SYNONYM
+P?ADJECTIVE  P?FDESC	  P?NORTH      P?SE	    P?TEXT
+P?CAPACITY   P?GENERIC	  P?NW	       P?SIZE	    P?THINGS
+P?CONTFCN    P?GLOBAL	  P?OUT	       P?SOUTH	    P?UP
+
+Flags: 48
+
+FL-AIR		FL-COLLECTIVE	FL-LAMP		FL-PLURAL	FL-TRY-TAKE
+FL-ALIVE	FL-CONTAINER	FL-LIGHTED	FL-READABLE	FL-TRYTAKE
+FL-ASLEEP	FL-DOOR		FL-LOCKED	FL-ROOMS	FL-VEHICLE
+FL-AUTO-ENTER	FL-FEMALE	FL-NO-ALL	FL-SEARCH	FL-VOWEL
+FL-AUTO-OPEN	FL-FOOD		FL-NO-ARTICLE	FL-SEEN		FL-WATER
+FL-BODY-PART	FL-HAS-SDESC	FL-NO-DESC	FL-SURFACE	FL-WEAPON
+FL-BROKEN	FL-INDOORS	FL-NO-LIST	FL-TAKEABLE	FL-WORN
+FL-BURNABLE	FL-INVISIBLE	FL-OPEN		FL-TOOL		FL-YOUR
+FL-BY-HAND	FL-KEY		FL-OPENABLE	FL-TOUCHED
+FL-CLOTHING	FL-KNIFE	FL-PERSON	FL-TRANSPARENT
