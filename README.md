@@ -6,7 +6,7 @@ This repository contains source code and other files which were, as far as anyon
 
 ## Where did it come from?
 
-The contents of this repository were imported from [a zip file](https://eblong.com/infocom/sources/amfv-rlater.zip) hosted on [The Obsessively Complete Infocom Catalog](https://eblong.com/infocom/).
+The contents of this repository were imported from [a zip file](https://eblong.com/infocom/sources/arthur-r41.zip) hosted on [The Obsessively Complete Infocom Catalog](https://eblong.com/infocom/).
 
 There are other public sources of this material available on the internet.
 
