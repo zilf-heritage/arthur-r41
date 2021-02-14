@@ -6,7 +6,7 @@ This repository contains source code and other files which were, as far as anyon
 
 ## Where did it come from?
 
-This repository was forked from https://github.com/zil-legacy/arthur-r41-eblong.
+This repository was forked from [zil-legacy/arthur-r41-eblong](https://github.com/zil-legacy/arthur-r41-eblong).
 
 ## What is it for?
 
